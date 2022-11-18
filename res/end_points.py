@@ -38,7 +38,7 @@ class EndPoints():
         return 0
     
     def getRPCEndpoints(chain):
-        warnings.warn("Warning: Using thegraph.com API endpoints.")
+        warnings.warn("Warning: Using RPC API endpoints.")
         if(chain=="mainnet"):
             return EndPoints.mainnet_rpc
         if(chain=="polygon"):
