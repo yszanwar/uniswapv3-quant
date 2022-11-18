@@ -2,6 +2,10 @@ import warnings
 
 class EndPoints():
     
+    #GraphQL pagination
+    step = 1000
+    page = 0
+
     mainnet_gql = "https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v3"
     polygon_gql = "https://api.thegraph.com/subgraphs/name/ianlapham/uniswap-v3-polygon"
     optimism_gql = "https://api.thegraph.com/subgraphs/name/ianlapham/optimism-post-regenesis"
